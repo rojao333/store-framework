@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+
+    "image#landingbanner": {
+        "props": {
+          "src": "https://www.filmstories.co.uk/wp-content/uploads/2019/12/spider-man-850x560.jpg",
+          "minWidth": "100%"
+        }
+    },
+
+    "search-result-layout.customQuery": {
+        "props": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "Blue Top Retro Camera",
+            "mapField": "ft"
+        }
+    }
+}
