@@ -48,14 +48,14 @@
     ],
     "props":{
       "verticalAlign": "middle",
-      "preventVerticalStretch": "true"
+      "preventVerticalStretch": true
     }
   },
 
   "product-price": {
     "props":{
-      "showSavings": "true",
-      "showListPrice": "true"
+      "showSavings": true,
+      "showListPrice": true
     }
   },
 
@@ -69,8 +69,8 @@
   "sku-selector": {
     "props":{
       "initialSelection": "empty",
-      "showVariationsLabels": "true",
-      "showVariationsErrorMessage": "true"
+      "showValueNameForImageVariation": true,
+      "showVariationsErrorMessage": true
     }
   }
 }
